@@ -48,7 +48,7 @@ public class ASSIGN_Model {
 
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < m; j++) {
-                objective.addTerm(x[i][j], costs[i][j]);// stiamo aggiungendo il termine c_ij*x_ij
+                objective.addTerm(x[i][j], costs[i][j]);
 
             }
         }
